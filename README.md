@@ -14,3 +14,7 @@ Features
 
 Output
   This program outputs final position data in a CSV file named position_data.csv to whichever directory the command prompt is currently in.
+
+Usage
+    To run the simulation call the Monte_Carlo(number of steps, steps remaining increment)
+    You can also change the systems various parameters such as sigma, length and width of box (L), epsilon, and number of particles (N).
