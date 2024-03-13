@@ -141,7 +141,7 @@ def Monte_Carlo(steps, specified_print_step):
 Copies position array into a csv file to be visualized using excel  
 '''
 def write_csv():
-    file_path = 'position_data13.csv'
+    file_path = 'position_data.csv'
 
     with open(file_path, mode='w', newline='') as file:
         writer = csv.writer(file)
@@ -152,15 +152,3 @@ def write_csv():
 Monte_Carlo(1000000, 10000)
 write_csv()
        
-        
-
-
-
-     
-
-
-
-
-
-
-
