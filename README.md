@@ -13,4 +13,4 @@ Features
     Metropolis Criterion: The simulation uses the Metropolis criterion to determine whether a particle move is accepted based on the change in energy. Moves that lower the energy are always accepted, while moves that increase the energy have a probability of being accepted.
 
 Output
-  This program outputs final position data in a csv file to whichever directory the command prompt is currently in.
+  This program outputs final position data in a CSV file named position_data.csv to whichever directory the command prompt is currently in.
