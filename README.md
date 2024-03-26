@@ -1,7 +1,12 @@
 # Classical-Monte-Carlo-Particle-Sim
 Classical Monte Carlo Particle Dynamics Simulation.
-
 This repository contains Python code for a Monte Carlo simulation of particle dynamics in a 2D box. The simulation implements the Metropolis criterion to explore the configuration space of the particles and calculate their energy distribution at a given temperature.
+
+REQUIREMENTS---------------------------
+This program utilizes numpy:
+    To install numpy tun the following command
+    pip --install numpy
+
 
 Features
     Lennard-Jones Potential: The potential energy between particles is modeled using the Lennard-Jones potential, which describes the interaction between neutral atoms or molecules.
@@ -14,6 +19,7 @@ Features
 
 Output
   This program outputs final position data in a CSV file named position_data.csv to whichever directory the command prompt is currently in.
+  To visualize the data open the CSV file in excel and plot on a dot plot. Each row containts a particles X then Y coordinate.
 
 Usage
     To run the simulation call the Monte_Carlo(number of steps, steps remaining increment)
